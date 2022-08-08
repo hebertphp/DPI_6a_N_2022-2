@@ -1,1 +1,7 @@
-# -DPI_6a_N_2022-2
+## Desenvolvimento para Internet - 2022-2
+* **Dia:** Sexta-Feira 
+* **Período:** Noite
+
+## Prof. Hebert Bratefixe Alquimim
+
+e-mail: [hebert@uni9.pro.br](mailto:hebert@uni9.pro.br)
