@@ -1,0 +1,12 @@
+.cor1{
+    background-color: hsl(10, 100%, 50%);
+}
+.cor2{
+    background-color: hsl(120,100%,50%);
+}
+.cor3{
+    background-color: hsl(240,100%,50%);
+}
+.cor4{
+    background: linear-gradient(to right, #ff00ff 0%, #00ff99 100%);
+}

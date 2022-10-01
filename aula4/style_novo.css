@@ -1,0 +1,18 @@
+body{
+    /* background: linear-gradient(45deg, #000000 -10%, #b12222 30%, #b82121 30%, #000000 160%); */
+    /* background: linear-gradient(to top right, red,blue) */
+}
+h1:hover{
+    background-color: hsl(0, 0%, 80%);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.cor1{
+    background-color: hsla(120,100%,50%,1.0);
+}
+.cor2{
+    background-color: hsl(0,100%,50%);
+}
+.cor2:hover{
+    background-color: hsl(240,100%,80%);
+}
