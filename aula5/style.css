@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --cor:hsl(120,100%,50%);
+}
+body{
+    font-family: 'Silkscreen', cursive;
+
+}
+h1{
+    background-color: hsl(240, 100%, 30%);/* blue #00f rgb(0,0,255) hsl(240, 100%, 30%)*/
+    color:#fff;/*white #fff rgb(255,255,255) hsl(0,0%,100%) */
+    width: 350px;/* largura */
+    height: 350px;/* altura */
+    /* font-family: Tahoma, sans-serif; */
+    /* font-family: 'Silkscreen', cursive; */
+}
+h1:hover{
+    background-color: hsl(240, 100%, 50%);
+}
+.t1{
+    background-color: hsl(30,100%,50%);
+    width: 50%;
+    height: 50vh;
+    /* % vw vh*/
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.t2{
+    background-color: hsl(300,100%,50%);
+    font-family: Garamond, serif;
+}
+.t3{
+   background-color: aqua; 
+   font-family: 'Courier New', monospace;
+}
+.t4{
+    background-color: rgb(255,255,0);
+    /* font-family: 'Brush Script MT', cursive; */
+    font-family: papyrus;
+    font-size:2rem;
+}
+div{
+    border: 2px solid red;
+    /* margin-top: 30px; */
+    width: 400px;
+    margin: 30px auto;
+    background-color: var(--cor);
+}

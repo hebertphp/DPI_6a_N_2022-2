@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+h1{
+    background-color: blueviolet;
+    margin-left:10px;
+    background: linear-gradient(0deg, hsl(181, 70%, 45%) 0%, hsl(115, 94%, 52%) 100%);
+    margin: 10px;
+    border-radius: 20px 40px 60px 80px;
+    text-align: center;
+    /* color: hsl(180, 10%, 92%); */
+    background-image: linear-gradient(to right, #463e59, #7965bf, #7580bf, #509aa3, #38bc95);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    /* margin-bottom: 25px; */
+}
+.dv-1{
+    background-color: orange;
+    width:500px;
+    height:200px;
+    margin-top: 45px; 
+    padding: 20px;
+    border: 5px outset #00f;
+    
+        border-radius: 10px;
+        border-top: 1px solid #7965bf;
+        border-left: 1px solid #7965bf;
+        box-shadow: 20px 20px 20px #7965bf;
+    
+}
+.dv-2{
+    background-color: green;
+    color: #fff;
+    width:800px;
+    height:100px;
+    margin: 10px auto;
+    background-image: url('img-flor-floresta-no-caminho.jpg');
+    background-size: cover;
+    background-position: 50% 80%;
+    background-attachment:fixed;
+}
+.dv-3{
+    width:300px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 50%;
+    
+}
+.dv-1 img{
+    /* z-index:-1; */
+    width: 200px;
+}
