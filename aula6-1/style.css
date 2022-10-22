@@ -9,6 +9,9 @@
     border: 1px solid blue;/* espessura de 1px, tipo de linha sólida, cor da borda azul */
 }
 .container .box{/* estilizar todas as .box que estão dentro de .container */
-    width: 300px;
+    width: 200px;
     border: 1px solid red;
+}
+.container .box img{
+    width: 100%;/* largura de 100% relativo a .box */
 }
