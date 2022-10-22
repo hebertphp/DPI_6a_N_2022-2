@@ -1,0 +1,14 @@
+/* -- Reset da Página -- */
+*{/* será aplicado para tudo */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:80%; /* largura de 80% da página */
+    border: 1px solid blue;/* espessura de 1px, tipo de linha sólida, cor da borda azul */
+}
+.container .box{/* estilizar todas as .box que estão dentro de .container */
+    width: 300px;
+    border: 1px solid red;
+}
