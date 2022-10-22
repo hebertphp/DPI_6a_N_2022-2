@@ -5,9 +5,14 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     width:80%; /* largura de 80% da página */
     border: 1px solid blue;/* espessura de 1px, tipo de linha sólida, cor da borda azul */
+    display: flex;
+    justify-content: space-between;
 }
 .container .box{/* estilizar todas as .box que estão dentro de .container */
     width: 200px;
@@ -19,7 +24,14 @@
 .sec{
     background-color: gray;
     height: 100vh;/* 100 vh, viewport, altura da página */
+    padding: 30px 20px;
 }
 .sec h2{
     color: orange
+}
+nav{
+    text-align: center;
+    position: fixed;
+    background-color: blueviolet;
+    width: 100%;
 }
