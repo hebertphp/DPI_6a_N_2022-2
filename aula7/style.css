@@ -45,3 +45,8 @@ header nav ul li a{
 header nav ul li a:hover{
     background-color: var(--cor-hover);/* aplica o valor da variável --cor-hover para a cor de fundo  */
 }
+.container{
+    width: 100%;
+    height: 50vh;
+    border: 1px solid red;
+}
