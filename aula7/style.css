@@ -3,6 +3,10 @@
     --cor-fundo:hsl(240, 100%, 30%);/* cria a variável --cor-fundo com a cor azul escuro */
     --cor-hover: hsl(0, 0%, 50%);/*  cria a variável --cor-hover com a cor cinza*/
     --cor-link: hsl(0, 0%, 100%);/* cria a variável --cor-link com a cor branca*/
+    /* para criar uma var em css, --nome_da_var:valor; */
+    --cor-fundo-d1:grey;
+    --cor-fundo-d2:yellow;
+    --cor-fundo-d3:orangered;
 }
 
 /* -- reset de página */
