@@ -59,3 +59,12 @@ header nav ul li a:hover{
     height:50px;
     border:1px solid blue;
 }
+.d1{
+    background-color: var(--cor-fundo-d1);
+}
+.d2{
+    background-color: var(--cor-fundo-d2);
+}
+.d3{
+    background-color: var(--cor-fundo-d3);
+}
