@@ -9,6 +9,11 @@
     --cor-fundo-d3:orangered;
 
     --largura-div:200px;
+
+  --img1:url('https://source.unsplash.com/3pC6oFadbF8');
+  --img2:url('https://source.unsplash.com/g30P1zcOzXo');
+  --img3:url('https://source.unsplash.com/Bkci_8qcdvQ');
+  --img4:url('https://source.unsplash.com/V1NVvXmO_dk');
 }
 
 /* -- reset de página */
@@ -56,8 +61,16 @@ header nav ul li a:hover{
     height: 50vh;
     border: 1px solid red;
     display: flex;
-    justify-content: space-between;
-    /* valores para o justify-content: center|start|end|space-between */
+    justify-content: center;/* horizontal - eixo principal */
+    /* valores para o justify-content: center|start|end|space-between|space-around|space-evenly*/
+    align-items: center;/* vertical */
+    /* valores para o align-items: start|center|end */
+    gap:5px;
+    flex-wrap: wrap;
+    /* background-image: linear-gradient(to bottom right, rgb(231, 173, 65) ,rgb(185, 118, 248) ); */
+    background-image: var(--img1);
+    background-size: cover;
+    background-position: 50% 70%;
 }
 .d{
     width:var(--largura-div);
