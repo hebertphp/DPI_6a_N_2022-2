@@ -7,6 +7,8 @@
     --cor-fundo-d1:grey;
     --cor-fundo-d2:yellow;
     --cor-fundo-d3:orangered;
+
+    --largura-div:200px;
 }
 
 /* -- reset de página */
@@ -55,7 +57,7 @@ header nav ul li a:hover{
     border: 1px solid red;
 }
 .d{
-    width:200px;
+    width:var(--largura-div);
     height:50px;
     border:1px solid blue;
 }
@@ -67,4 +69,8 @@ header nav ul li a:hover{
 }
 .d3{
     background-color: var(--cor-fundo-d3);
+    transition: 0.5s;
+}
+.d3:hover{
+    --cor-fundo-d3:hsl(120,100%,50%);
 }
