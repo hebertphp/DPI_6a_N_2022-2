@@ -5,7 +5,7 @@
     --cor-link: hsl(0, 0%, 100%);/* cria a variável --cor-link com a cor branca*/
     /* para criar uma var em css, --nome_da_var:valor; */
     --cor-fundo-d1:grey;
-    --cor-fundo-d2:yellow;
+    --cor-fundo-d2:hsla(60, 100%, 50%, 0.52);
     --cor-fundo-d3:orangered;
 
     --largura-div:200px;
@@ -68,9 +68,9 @@ header nav ul li a:hover{
     gap:5px;
     flex-wrap: wrap;
     /* background-image: linear-gradient(to bottom right, rgb(231, 173, 65) ,rgb(185, 118, 248) ); */
-    background-image: var(--img1);
+    background-image: var(--img3);
     background-size: cover;
-    background-position: 50% 70%;
+    background-position: 50% 50%;
 }
 .d{
     width:var(--largura-div);
