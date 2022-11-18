@@ -61,12 +61,13 @@ header nav ul li a:hover{
     height: 50vh;
     border: 1px solid red;
     display: flex;
-    justify-content: center;/* horizontal - eixo principal */
+    justify-content:center ;/* horizontal - eixo principal */
     /* valores para o justify-content: center|start|end|space-between|space-around|space-evenly*/
-    align-items: center;/* vertical */
+    align-items:center;/* vertical */
     /* valores para o align-items: start|center|end */
-    gap:5px;
-    flex-wrap: wrap;
+    /* gap:5px; */
+    
+    /* flex-wrap: wrap; */
     /* background-image: linear-gradient(to bottom right, rgb(231, 173, 65) ,rgb(185, 118, 248) ); */
     background-image: var(--img3);
     background-size: cover;
@@ -76,6 +77,11 @@ header nav ul li a:hover{
     width:var(--largura-div);
     height:50px;
     border:1px solid blue;
+    margin-right: 5px;
+    /* text-align: center; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .d1{
     background-color: var(--cor-fundo-d1);
