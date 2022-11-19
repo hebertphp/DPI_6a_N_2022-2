@@ -34,10 +34,20 @@
             <legend>UF</legend> 
             Selecione o UF
             <select name="uf">
-                <option value="SP">SP</option>
-                <option value="RJ">RJ</option>
-                <option value="MG">MG</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ" selected>Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
             </select>
+       </fieldset>
+       <fieldset>
+            <legend>Enviara uma mensagem de e-mail</legend> 
+            <!-- 
+                Criar dois campos, um para para o e-mail
+                                 outro campo para a mensagem do e-mail.
+
+             -->
+             <label for="email">Email</label><input type="email" name="email" id="email" placeholder="Digite seu e-mail"><br>
+             Mensagem <textarea name="msg" id="msg"></textarea>
        </fieldset>
        <input type="submit" value="Validar"> <input type="reset" value="Limpar">
         <p>* Campo obrigatório</p>
