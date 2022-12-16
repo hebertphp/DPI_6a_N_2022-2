@@ -11,4 +11,5 @@
 }
 .teste:hover{
     transform: translate(50px,50px);/* 50px eixo x, 50px eixo y*/
+    transform: rotate(45deg); 
 }
