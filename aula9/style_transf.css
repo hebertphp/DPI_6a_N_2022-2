@@ -7,7 +7,7 @@
     width:100px;
     height: 100px;
     background-color: chocolate;
-    
+    transition: 0.5s;
 }
 .teste:hover{
     transform: translate(50px,50px);/* 50px eixo x, 50px eixo y*/
