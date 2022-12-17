@@ -7,7 +7,8 @@
     width: 100px;
     height: 100px;
     background: red;
-    transition-property: anima;
+    animation-name: anima;
+    animation-duration: 3s;
 }
 @keyframes anima {
     from {
