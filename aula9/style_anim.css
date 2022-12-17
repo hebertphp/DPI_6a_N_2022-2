@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.teste{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: anima;
+}
+@keyframes anima {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(500px);
+    }
+}    
