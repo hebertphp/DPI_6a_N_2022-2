@@ -12,6 +12,7 @@
     animation-timing-function: ease-in-out;
     animation-delay: 0.7s; 
     animation-iteration-count: infinite;
+    animation-direction: reverse;
 }
 @keyframes anima {
     from {
