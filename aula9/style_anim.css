@@ -8,7 +8,8 @@
     height: 100px;
     background: red;
     animation-name: anima;
-    animation-duration: 3s;
+    animation-duration:3s;
+    animation-timing-function: linear;
 }
 @keyframes anima {
     from {
@@ -16,5 +17,7 @@
     }
     to {
         transform: translateX(500px);
+        background-color: yellow;    
+        border-radius: 50%;
     }
 }    
