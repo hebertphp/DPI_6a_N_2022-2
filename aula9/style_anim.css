@@ -9,7 +9,9 @@
     background: red;
     animation-name: anima;
     animation-duration:3s;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.7s; 
+    animation-iteration-count: infinite;
 }
 @keyframes anima {
     from {
