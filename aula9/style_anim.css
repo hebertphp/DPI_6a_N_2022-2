@@ -3,6 +3,13 @@
     padding:0;
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+    width: 50%;
+    margin:50px auto;
+    transform: translateY(0px);
+    animation: flutua 5s ease-in-out infinite;
+}
 .teste{
     width: 100px;
     height: 100px;
@@ -12,7 +19,7 @@
     animation-timing-function: ease-in-out;
     animation-delay: 0.7s; 
     animation-iteration-count: infinite;
-    animation-direction: reverse;
+    animation-direction: alternate;
 }
 @keyframes anima {
     from {
@@ -23,4 +30,15 @@
         background-color: yellow;    
         border-radius: 50%;
     }
-}    
+}  
+@keyframes flutua {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
