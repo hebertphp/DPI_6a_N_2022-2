@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 .teste{
-    width:100px;
+    width: 100px;
     height: 100px;
-    background-color: red;
+    background: red;
+    
     margin: 150px;
-    transition-property: transform , background;
-    transition-duration: 1s,2s; 
+    transition-property: transform , background,border-radius;
+    transition-duration: 1s,2s,1s; 
+    transition-delay: 0.5s;
+
 }
 .teste:hover{
     transform: translate(50px,0px) rotate(45deg) scale(0.5,0.5);/* 50px eixo x, 50px eixo y*/
     background: yellow;
+    border-radius: 50%;
 }
