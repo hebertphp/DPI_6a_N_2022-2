@@ -7,7 +7,9 @@
     width: 100px;
     height: 100px;
     background: cyan;
-    transform: translateX(200px);
+    transform: translate(200px,200px);
+    transform: rotate(45deg);
+    transform: scaleX(2);
 }    
 h1{
     margin-bottom:50px;
