@@ -7,9 +7,13 @@
     width: 100px;
     height: 100px;
     background: cyan;
-    transform: translate(200px,200px);
-    transform: rotate(45deg);
-    transform: scaleX(2);
+    /* transform: translate(200px,200px); */
+    /* transform: rotate(45deg); */
+    
+    margin-left: 200px;
+}    
+.move:hover{
+    transform: scale(1.3,2);
 }    
 h1{
     margin-bottom:50px;
