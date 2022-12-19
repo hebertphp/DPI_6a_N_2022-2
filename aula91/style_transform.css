@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.move{
+    width: 100px;
+    height: 100px;
+    background: red;
+
+}    
+h1{
+    margin-bottom:50px;
+}
