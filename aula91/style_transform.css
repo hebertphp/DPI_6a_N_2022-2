@@ -11,6 +11,8 @@
     /* transform: rotate(45deg); */
     transition-property:transform,background;
     transition-duration:1s,0.5s; 
+    /* transition-delay: 0.3s;  */
+    transition-timing-function: ease-in-out ;
     margin-left: 200px;
 }    
 .move:hover{
