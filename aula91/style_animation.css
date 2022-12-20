@@ -12,14 +12,17 @@ h1{
     background: blueviolet;
     animation-name: anima;
     animation-duration: 3s;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite; 
+    animation-direction:reverse;
 }
 @keyframes anima {
     from {
         transform: translateX(0px);
     }
     to {
-        transform: translateX(500px);
+        transform: translateX(700px);
         background-color: cyan;
         border-radius: 50%;
     }
