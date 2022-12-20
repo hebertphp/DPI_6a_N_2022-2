@@ -11,6 +11,7 @@ h1{
     height: 100px;
     background: blueviolet;
     animation-name: anima;
+    animation-duration: 3s;
 }
 @keyframes anima {
     from {
