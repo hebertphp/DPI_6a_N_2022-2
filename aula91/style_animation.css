@@ -10,9 +10,10 @@ h1{
 .move{
     width: 100px;
     height: 100px;
+    transform: translate(-150px);
     background: blueviolet;
     animation-name: anima;
-    animation-duration: 2s;
+    animation-duration: 12s;
     animation-timing-function: ease-in-out;
     animation-delay: 0.4s;
     animation-iteration-count: infinite; 
@@ -28,7 +29,7 @@ h1{
 
 @keyframes anima {
     from {
-        transform: translateX(0px);
+        transform: translateX(-150px);
     }
     to {
         transform: translateX(700px);
