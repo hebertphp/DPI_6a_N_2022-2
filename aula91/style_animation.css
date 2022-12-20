@@ -12,6 +12,7 @@ h1{
     background: blueviolet;
     animation-name: anima;
     animation-duration: 3s;
+    animation-timing-function: ease-in;
 }
 @keyframes anima {
     from {
