@@ -10,9 +10,8 @@ h1{
     width: 100px;
     height: 100px;
     background: blueviolet;
+    animation-name: anima;
 }
-
-
 @keyframes anima {
     from {
         transform: translateX(0px);
