@@ -18,6 +18,14 @@ h1{
     animation-iteration-count: infinite; 
     animation-direction:alternate;
 }
+.mostra{
+    border: 1px solid red;
+    height: 100px;
+}
+.mostra p{
+    display: none;
+}
+
 @keyframes anima {
     from {
         transform: translateX(0px);
