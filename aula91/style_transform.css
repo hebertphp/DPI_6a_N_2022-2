@@ -16,7 +16,8 @@
     margin-left: 200px;
 }    
 .move:hover{
-    transform: scale(2,1.5);
+    /* transform: scale(2,1.5); */
+    transform: translatey(-10px) rotate(360deg) scale(0.7, 0.7);
     background: blueviolet;
 }    
 h1{

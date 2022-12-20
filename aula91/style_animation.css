@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    margin-bottom:50px;
+}
+.move{
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+}
+
+
+@keyframes anima {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(500px);
+    }
+}
